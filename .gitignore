@@ -1,0 +1,58 @@
+# Binaries and build artifacts
+/bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Environment variables and secrets
+.env
+*.env
+.env.local
+.env.*.local
+
+# Go specific
+/vendor/
+/go.work
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.*.swp
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+
+# IDE specific
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Debug and test artifacts
+/coverage.out
+/coverage.html
+*.prof
+*.test
+debug
+
+# Logs
+*.log
+logs/
+log/
+
+# Dependency directories (uncomment if using custom locations)
+# /pkg/mod/
+
+# Local configuration
+config.local.json
